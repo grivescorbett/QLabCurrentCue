@@ -25,6 +25,17 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011 __MyCompanyName__. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string></string>
+	<string>QLabCurrentCue</string>
+	<key>SIMBLTargetApplications</key>
+	<array>
+		<dict>
+			<key>BundleIdentifier</key>
+			<string>com.figure53.QLab.2</string>
+			<key>MaxBundleVersion</key>
+			<string>1163</string>
+			<key>MinBundleVersion</key>
+			<string>1163</string>
+		</dict>
+	</array>
 </dict>
 </plist>

@@ -9,5 +9,9 @@
 
 
 @interface QLabCurrentCue : NSObject
+{
+    
+}
 
++ (QLabCurrentCue*)sharedInstance;
 @end

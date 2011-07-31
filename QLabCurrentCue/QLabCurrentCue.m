@@ -20,4 +20,14 @@
     return self;
 }
 
++ (QLabCurrentCue*)sharedInstance
+{
+    static QLabCurrentCue* instance = nil;
+    
+    if (instance == nil)
+        instance = [[QLabCurrentCue alloc] init];
+    
+    return instance;
+}
+
 @end
