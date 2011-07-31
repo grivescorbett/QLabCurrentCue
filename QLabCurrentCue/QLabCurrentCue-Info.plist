@@ -32,7 +32,7 @@
 			<key>BundleIdentifier</key>
 			<string>com.figure53.QLab.2</string>
 			<key>MaxBundleVersion</key>
-			<string>1163</string>
+			<string>*</string>
 			<key>MinBundleVersion</key>
 			<string>1163</string>
 		</dict>

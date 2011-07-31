@@ -10,7 +10,21 @@
 		8302516613E4E23D00FF6701 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8302516513E4E23D00FF6701 /* Cocoa.framework */; };
 		8302517013E4E23D00FF6701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8302516E13E4E23D00FF6701 /* InfoPlist.strings */; };
 		8302517913E4E25700FF6701 /* QLabCurrentCue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302517813E4E25700FF6701 /* QLabCurrentCue.m */; };
+		830251A513E4E4C400FF6701 /* QLabCurrentCue.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8302516213E4E23D00FF6701 /* QLabCurrentCue.bundle */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		830251A413E4E4B900FF6701 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Application Support/SIMBL/Plugins";
+			dstSubfolderSpec = 0;
+			files = (
+				830251A513E4E4C400FF6701 /* QLabCurrentCue.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8302516213E4E23D00FF6701 /* QLabCurrentCue.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLabCurrentCue.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +117,7 @@
 				8302515E13E4E23D00FF6701 /* Sources */,
 				8302515F13E4E23D00FF6701 /* Frameworks */,
 				8302516013E4E23D00FF6701 /* Resources */,
+				830251A413E4E4B900FF6701 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -217,6 +232,7 @@
 		8302517513E4E23D00FF6701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QLabCurrentCue/QLabCurrentCue-Prefix.pch";
 				INFOPLIST_FILE = "QLabCurrentCue/QLabCurrentCue-Info.plist";
@@ -229,6 +245,7 @@
 		8302517613E4E23D00FF6701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QLabCurrentCue/QLabCurrentCue-Prefix.pch";
 				INFOPLIST_FILE = "QLabCurrentCue/QLabCurrentCue-Info.plist";
