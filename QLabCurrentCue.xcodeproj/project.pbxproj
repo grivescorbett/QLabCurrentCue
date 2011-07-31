@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8302516613E4E23D00FF6701 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8302516513E4E23D00FF6701 /* Cocoa.framework */; };
 		8302517013E4E23D00FF6701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8302516E13E4E23D00FF6701 /* InfoPlist.strings */; };
+		8302517913E4E25700FF6701 /* QLabCurrentCue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302517813E4E25700FF6701 /* QLabCurrentCue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +18,11 @@
 		8302516813E4E23D00FF6701 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8302516913E4E23D00FF6701 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8302516A13E4E23D00FF6701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8302516D13E4E23D00FF6701 /* QLabCurrentCue-Info.plist */ = {isa = PBXFileReference; path = "QLabCurrentCue-Info.plist"; sourceTree = "<group>"; };
+		8302516D13E4E23D00FF6701 /* QLabCurrentCue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QLabCurrentCue-Info.plist"; sourceTree = "<group>"; };
 		8302516F13E4E23D00FF6701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8302517113E4E23D00FF6701 /* QLabCurrentCue-Prefix.pch */ = {isa = PBXFileReference; path = "QLabCurrentCue-Prefix.pch"; sourceTree = "<group>"; };
+		8302517113E4E23D00FF6701 /* QLabCurrentCue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QLabCurrentCue-Prefix.pch"; sourceTree = "<group>"; };
+		8302517713E4E25700FF6701 /* QLabCurrentCue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLabCurrentCue.h; sourceTree = "<group>"; };
+		8302517813E4E25700FF6701 /* QLabCurrentCue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLabCurrentCue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				8302516C13E4E23D00FF6701 /* Supporting Files */,
+				8302517713E4E25700FF6701 /* QLabCurrentCue.h */,
+				8302517813E4E25700FF6701 /* QLabCurrentCue.m */,
 			);
 			path = QLabCurrentCue;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8302517913E4E25700FF6701 /* QLabCurrentCue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
